@@ -8,8 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Mi página :D</title>
-  <link rel="icon" href="http://cdn.marketplaceimages.windowsphone.com/v8/images/c59f8e96-da19-40a2-b74f-e3cd9f92b109?imageType=ws_icon_medium" type="image/jpg">
+  <title>Blog - Saúl Baque</title>
+  <link rel="icon" href="img/icono.ico">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,39 +26,64 @@
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" href="#about">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Saúl Baque Hidalgo</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" href="#about">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <link rel="stylesheet" href="css/menu.css">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Introducción a la Ingeniería en software</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Proceso de Ingeniería de software</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Proceso del Software</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Modelo de procesos de software</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Miguel Botto Tobar</a>
-        </li>
+        <div class="navegacion">
+          <nav>
+            <ul>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ed">Experiencia y Educación</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience1">Clases<span class="navegacion"></span></a>
+              <div class="submenu">
+
+                <div class="submenu-item">
+                  <ul>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Introducción a la Ingeniería de Software</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu-item">
+                  <ul>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Proceso de Ingeniería de software</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu-item">
+                  <ul>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Proceso del Software</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu-item">
+                  <ul>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Modelo de procesos de software</a></li>
+                  </ul>
+                </div>
+
+              </div>
+              </li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Ing. Miguel Botto Tobar</a></li>
+            </ul>
+          </nav> 
+        </div>
+
       </ul>
-    </div>
+
+  </div>
   </nav>
+
+  <div class="container-fluid p-0">
 
   <div class="container-fluid p-0">
 
@@ -70,7 +95,7 @@
         <div class="subheading mb-5">Durán, Guayas · El Recreo · (+593) 99 727 3910 ·
           <a href="mailto:saulesbahi1322@gmail.com">saulesbahi1322@gmail.com</a>
         </div>
-        <p class="lead mb-5">Estudio en la Universidad de Guayaquil, estoy en el 1er semestre de la carrera de Ingeniería en Software, y esta es mi página web que muestra las clases recibidas en la asignatura de Introducción en la Ingeniería en Software.</p>
+        <p class="lead mb-5">Estudio en la Universidad de Guayaquil, estoy cursando el 1er semestre de la carrera de Ingeniería en Software, y esta es mi página web que muestra las clases recibidas en la asignatura de Introducción en la Ingeniería en Software.</p>
         <div class="social-icons">
           <a link href="https://github.com/Saul1322">
             <i class="fab fa-github"></i>
@@ -89,9 +114,31 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+ <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="ed">
+      <div class="w-100">
+        <h2 class="mb-5">Experiencia y Educación</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Educación Básica y Bachillerato</h3>
+            <div class="subheading mb-3">Colegio Fiscal Provincia del Cañar</div>
+            <p>Cursé mis estudios en el Colegio Provincia del Cañar del Cantón Durán, me gradué en Bachillerato Técnico en Informática, aunque no poseo mucho conocimiento sobre programación en general, solo Lenguaje C (Básico).</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary"><b>2019</b></span>
+          </div>
+        </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience1">
       <div class="w-100">
         <h2 class="mb-5">Introducción a la Ingeniería en software</h2>
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
           <div class="resume-content">
             <h3 class="mb-0">FUNDAMENTOS A LA INGENIERÍA DE SOFTWARE </h3>
             <div class="subheading mb-3">Definición de IS</div>
@@ -223,7 +270,7 @@
               <p>__Integridad = 1 – 0.2 * (1 - 0.8) = 0.96</p>
               <p>•  Si la amenaza (probabilidad de que un ataque ocurrirá) es 0.25, y la seguridad (posibilidad de repeler un ataque) es 0.95, la integridad del sistema es 0.99 (muy elevada).</p>
               <p>•  Si por otra parte, la probabilidad de amenaza fuera 0.5 y la posibilidad de repeler un ataque es solo 0.25, la integridad del sistema es 0.63 (inaceptablemente baja).</p>
-              <p>•  Facilidad de uso: Es el intento por cuantificar la sencillez de una aplicación al u7lizarla.</p>
+              <p>•  Facilidad de uso: Es el intento por cuantificar la sencillez de una aplicación al utilizarla.</p>
               <p>3. Métricas de Productividad: Se centran en el rendimiento del proceso de la ingeniería del software. Es decir qué tan productivo va a ser el software que voy a diseñar. Se refiere a las características del software.</p>
               <p>4. Métricas de costo: se centra en el costo total del sistema informático.</p>
               <p>5. Métricas orientadas al tamaño: Esta nos permite conocer el tiempo en el que se terminará el software y cuántas personas se necesitan para su desarrollo, aquí medimos las variables con las que desarrollamos el software.</p>
@@ -647,13 +694,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
-        <img src="https://research.tue.nl/files-asset/107961308/Botto_Tobar_Miguel_WI_PO_AS_0168_PhD.jpg" width="278" height="378">
-        <h2 class="mb-5">Miguel Botto Tobar</h2>
+        <img src="img/ing.JPG" width="278" height="378">
+        <h2 class="mb-5">ING. Miguel Botto Tobar</h2>
         <p>•  Ingeniero en Sistemas Computacionales – UNEMI, Ecuador</p>
         <p>•  Master en Ingeniería de Software, Métodos Formales y Sistemas de Información – UPV, Valencia – España.</p>
         <p>•  Estudiante del Doctorado en Ciencias de la Computación – TUe, Eindhoven – Holanda.</p>
         <a href="https://research.tue.nl/en/persons/miguel-botto-tobar
-">-https://research.tue.nl/en/persons/miguel-botto-tobar</a>
+          ">-https://research.tue.nl/en/persons/miguel-botto-tobar</a>
         <p>-My current research project is related to aspects concerning Stack Overflow usage to supporting non-English-speaking Software Developers.</p>
         <p>-Interests: Software Engineering; Model-Driven Development; Software Evolution; Social Aspects; Cloud Computing;</p>
       </div>
